@@ -1,0 +1,8 @@
+# Pinned Session Bar bundle patch: inserts the plugin row into the web profile
+# roster. The single row mounts BOTH halves: the host side is a no-op, while the
+# dsh.client declaration in package.json makes the browser half (exports
+# "./client", served from lib/client.js) mount the pinned-session bar above the
+# sidebar's workspace browser.
+- insert:
+    - id: ui-pinned-bar
+      name: 'dsh-pinned-session-bar'

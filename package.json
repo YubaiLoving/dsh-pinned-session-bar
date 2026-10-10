@@ -1,0 +1,58 @@
+{
+  "name": "dsh-pinned-session-bar",
+  "description": "A DSH (DeepSeek Harness) Web GUI client plugin: a dedicated Pinned bar above the sidebar workspace list, collecting every pinned session with cross-container drag and drop.",
+  "version": "1.0.0",
+  "icon": "icon.svg",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.1.7-rc.2"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "author": "YubaiLoving",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "client-plugin",
+    "sidebar",
+    "session",
+    "pinned",
+    "web-ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YubaiLoving/dsh-pinned-session-bar.git"
+  },
+  "homepage": "https://github.com/YubaiLoving/dsh-pinned-session-bar#readme",
+  "bugs": {
+    "url": "https://github.com/YubaiLoving/dsh-pinned-session-bar/issues"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh": ">=0.1.7-rc.2",
+    "react": "^18.2.0"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ]
+}
