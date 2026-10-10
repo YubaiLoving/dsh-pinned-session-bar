@@ -1,5 +1,9 @@
 # 置顶会话栏
 
+[![DSH Plugin](https://img.shields.io/badge/DSH-plugin-4D6BFE)](https://github.com/topics/dsh-plugin)
+![DSH](https://img.shields.io/badge/DSH-%E2%89%A5%200.1.7--rc.2-4D6BFE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [English](README.md) · **中文**
 
 一个 **DeepSeek Harness（DSH）Web GUI 客户端插件**：在侧栏**工作区/会话列表正上方**新增一条独立的「置顶」栏，把所有置顶 session 集中显示在那里，并支持在工作区列表与置顶栏之间互相拖动。

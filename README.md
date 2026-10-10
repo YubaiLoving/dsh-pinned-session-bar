@@ -1,5 +1,9 @@
 # Pinned Session Bar
 
+[![DSH Plugin](https://img.shields.io/badge/DSH-plugin-4D6BFE)](https://github.com/topics/dsh-plugin)
+![DSH](https://img.shields.io/badge/DSH-%E2%89%A5%200.1.7--rc.2-4D6BFE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 **English** · [中文](README.zh.md)
 
 A **client plugin for the DeepSeek Harness (DSH) Web GUI**. It adds a dedicated **Pinned** bar directly above the sidebar's workspace / session list, collects every pinned session there, and lets you drag sessions between the bar and the workspace list.
