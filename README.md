@@ -88,6 +88,10 @@ node test/smoke.mjs
 
 The smoke test loads `lib/client.js` inside a stub of the browser module-loader frame (React, DOM, services) and exercises registration, ordering, the selected highlight, in-bar reordering, drop-to-pin, drop-to-unpin, collapse, open and keyboard paths. It cannot validate real layout or the live services, but it executes every path of the shipped bundle.
 
+## Discoverability
+
+This repository carries the [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic, as the DeepSeek Harness documentation asks of plugin repositories.
+
 ## License
 
 [MIT](LICENSE)

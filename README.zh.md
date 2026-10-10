@@ -88,6 +88,10 @@ node test/smoke.mjs
 
 冒烟测试在 stub 的浏览器模块加载框架（React / DOM / 服务）里执行 `lib/client.js`，覆盖注册、排序、选中高亮、栏内重排、拖入置顶、拖出取消置顶、折叠、打开与键盘路径。它无法验证真实布局与在线服务，但会执行到发布 bundle 的每一条代码路径。
 
+## 可发现性
+
+本仓库按 DeepSeek Harness 文档的要求，带有 [`dsh-plugin`](https://github.com/topics/dsh-plugin) 话题标签。
+
 ## 许可证
 
 [MIT](LICENSE)
